@@ -1,2 +1,2 @@
 result=$(uptime | grep -oE '[0-9]\.[0-9][0-9]' | head -1)
-echo "CPU: " $result "%"
+printf "CPU: %.2f%% \n" $result

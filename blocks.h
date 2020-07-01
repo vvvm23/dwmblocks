@@ -5,6 +5,7 @@ static const Block blocks[] = {
   {" \uf85a ", "~/.config/dwmblocks/pr_mem.sh", 5, 0},
   {" \uf624 ", "echo 'CHAIRS 1800 '",                              600,        0},
 	{" \uf303 ", "echo 'Updates:' $(checkupdates | wc -l) ' '",				60,		      0},
+  {" \uf1eb ", "~/.config/dwmblocks/pr_ip.sh", 5, 0},
   {" \uf64f ", "echo $(date '+%T %d/%m/%Y')",                               1,          0},
 };
 
