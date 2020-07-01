@@ -1,2 +1,2 @@
-result=$(mpstat 1 3 | awk 'END{print 100-$NF"%"}')
-echo "CPU: " $result
+result=$(uptime | grep -oE '[0-9]\.[0-9][0-9]' | head -1)
+echo "CPU: " $result "%"
