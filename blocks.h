@@ -1,6 +1,7 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
+  {" \ufb19 ", "~/.config/dwmblocks/pr_cpu.sh", 5, 0},
   {" \uf85a ", "~/.config/dwmblocks/pr_mem.sh", 5, 0},
   {" \uf624 ", "echo 'CHAIRS 1800 '",                              600,        0},
 	{" \uf303 ", "echo 'Updates:' $(checkupdates | wc -l) ' '",				60,		      0},
